@@ -1,0 +1,7 @@
+﻿<resources>
+    <string name="application_label">مدیریت مکاتبات پرنیان</string>
+    <string name="email_hint">پست الکترونیکی</string>
+    <string name="uri_hint">آدرس سرور</string>
+    <string name="password_hint">گذرواژه</string>
+    <string name="apis_error_invalid_response">امکان اتصال به سرور وجود ندارد.</string>
+</resources>

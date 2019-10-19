@@ -1,0 +1,56 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/login_root">
+
+    <LinearLayout style="@style/login_container">
+
+        <LinearLayout style="@style/login_header">
+
+            <ImageView style="@style/login_logo" />
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/login_hero" />
+        </LinearLayout>
+
+        <RelativeLayout style="@style/login_content">
+
+            <LinearLayout
+                android:id="@+id/login_form"
+                style="@style/login_form">
+
+                <RelativeLayout
+                    android:id="@+id/login_base_uri_row"
+                    style="@style/login_base_uri_row">
+
+                    <ir.webplex.android.automation.ui.CustomEditText
+                        android:id="@+id/login_base_uri"
+                        style="@style/login_base_uri" />
+
+                    <ImageButton
+                        android:id="@+id/login_base_uri_reset"
+                        style="@style/login_base_uri_reset" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/login_row">
+
+                    <ir.webplex.android.automation.ui.CustomEditText
+                        android:id="@+id/login_email"
+                        style="@style/login_email" />
+                </RelativeLayout>
+
+                <RelativeLayout style="@style/login_last_row">
+
+                    <ir.webplex.android.automation.ui.CustomEditText
+                        android:id="@+id/login_password"
+                        style="@style/login_password" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/login_progress_wrapper"
+                style="@style/login_progress_wrapper">
+
+                <ProgressBar style="@style/login_progress_bar" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

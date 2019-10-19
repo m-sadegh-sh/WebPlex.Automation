@@ -1,0 +1,26 @@
+<resources>
+    <declare-styleable name="CustomTypeface">
+        <attr name="typefaceId" format="enum">
+            <enum name="iranian_sans_ultra_light" value="0" />
+            <enum name="iranian_sans_light" value="1" />
+            <enum name="iranian_sans_regular" value="2" />
+            <enum name="iranian_sans_medium" value="4" />
+            <enum name="iranian_sans_bold" value="8" />
+            <enum name="roboto_light" value="16" />
+            <enum name="roboto_regular" value="32" />
+            <enum name="roboto_medium" value="64" />
+            <enum name="roboto_bold" value="128" />
+        </attr>
+        <attr name="hintTypefaceId" format="enum">
+            <enum name="iranian_sans_ultra_light" value="0" />
+            <enum name="iranian_sans_light" value="1" />
+            <enum name="iranian_sans_regular" value="2" />
+            <enum name="iranian_sans_medium" value="4" />
+            <enum name="iranian_sans_bold" value="8" />
+            <enum name="roboto_light" value="16" />
+            <enum name="roboto_regular" value="32" />
+            <enum name="roboto_medium" value="64" />
+            <enum name="roboto_bold" value="128" />
+        </attr>
+    </declare-styleable>
+</resources>

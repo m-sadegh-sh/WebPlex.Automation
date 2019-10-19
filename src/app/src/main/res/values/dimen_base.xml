@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="input_size">14sp</dimen>
+    <dimen name="progress_size">100dp</dimen>
+    <dimen name="toast_text">12sp</dimen>
+    <dimen name="progress_message">12sp</dimen>
+</resources>

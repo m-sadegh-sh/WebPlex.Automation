@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.webplex.android.automation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name="ir.webplex.android.automation.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_shared_launcher"
+        android:label="@string/application_label"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".activities.SplashActivity"
+            android:label="@string/splash_label"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/login_label"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_default"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/main_label"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_default"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activities.SubmitReceiptActivity"
+            android:label="@string/submit_receipt_label"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_default"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activities.DetailsActivity"
+            android:label="@string/details_label"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.SubmitReceiptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_default"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activities.ReceiversActivity"
+            android:label="@string/receivers_label"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.SubmitReceiptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_default"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name=".activities.LettersActivity"
+            android:label="@string/letters_label"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.SubmitReceiptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_default"
+            android:windowSoftInputMode="stateAlwaysVisible|adjustResize" />
+        <activity
+            android:name=".activities.ReceptorsActivity"
+            android:label="@string/receptors_label"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.SubmitReceiptActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/theme_default"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+    </application>
+</manifest>

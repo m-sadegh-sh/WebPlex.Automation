@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/submit_receipt_root">
+
+    <LinearLayout
+        android:id="@+id/submit_receipt_form"
+        style="@style/submit_receipt_form">
+
+        <RelativeLayout style="@style/submit_receipt_row">
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/submit_receipt_letter_value"
+                style="@style/submit_receipt_letter_value" />
+
+            <ir.webplex.android.automation.ui.CustomTextView
+                android:id="@+id/submit_receipt_letter_label"
+                style="@style/submit_receipt_letter_label" />
+
+            <ImageButton
+                android:id="@+id/submit_receipt_letter_select"
+                style="@style/submit_receipt_letter_select" />
+
+            <ImageButton
+                android:id="@+id/submit_receipt_letter_clear"
+                style="@style/submit_receipt_clear" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/submit_receipt_row">
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/submit_receipt_receptor_value"
+                style="@style/submit_receipt_receptor_value" />
+
+            <ir.webplex.android.automation.ui.CustomTextView
+                android:id="@+id/submit_receipt_receptor_label"
+                style="@style/submit_receipt_receptor_label" />
+
+            <ImageButton
+                android:id="@+id/submit_receipt_receptor_select"
+                style="@style/submit_receipt_receptor_select" />
+
+            <ImageButton
+                android:id="@+id/submit_receipt_receptor_clear"
+                style="@style/submit_receipt_clear" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/submit_receipt_signature_container">
+
+            <ir.webplex.android.automation.ui.DrawingView
+                android:id="@+id/submit_receipt_signature_surface"
+                style="@style/submit_receipt_signature_surface" />
+
+            <ir.webplex.android.automation.ui.CustomTextView
+                android:id="@+id/submit_receipt_signature_value"
+                style="@style/submit_receipt_signature_value" />
+
+            <ImageButton
+                android:id="@+id/submit_receipt_signature_clear"
+                style="@style/submit_receipt_clear" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/submit_receipt_progress_wrapper"
+        style="@style/submit_receipt_progress_wrapper">
+
+        <ProgressBar style="@style/submit_receipt_progress_bar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/submit_receipt_progress_message_wrapper"
+        style="@style/submit_receipt_progress_message_wrapper">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/submit_receipt_progress_message"
+            style="@style/submit_receipt_progress_message" />
+    </RelativeLayout>
+
+</RelativeLayout>

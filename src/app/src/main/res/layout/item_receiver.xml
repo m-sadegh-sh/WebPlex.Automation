@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/item_receiver">
+
+    <LinearLayout style="@style/item_receiver_container">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/item_receiver_title"
+            style="@style/item_receiver_title" />
+
+        <RelativeLayout style="@style/item_receiver_wrapper">
+
+            <ir.webplex.android.automation.ui.CustomTextView
+                android:id="@+id/item_receiver_email"
+                style="@style/item_receiver_email" />
+
+            <ir.webplex.android.automation.ui.CustomTextView
+                android:id="@+id/item_receiver_relative_date"
+                style="@style/item_receiver_relative_date" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_receiver_divider"
+        style="@style/item_receiver_divider" />
+</RelativeLayout>

@@ -1,0 +1,115 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="match">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="wrap">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="match_wrap" parent="match">
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="wrap_match" parent="wrap">
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="input_base" parent="match_wrap">
+        <item name="android:textSize">@dimen/input_size</item>
+        <item name="android:textColorHint">@color/input_hint</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
+        <item name="android:textColor">@drawable/edit_text</item>
+        <item name="android:layout_height">55dp</item>
+    </style>
+
+    <style name="edit_text" parent="input_base">
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="edit_text_single_line" parent="edit_text">
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="edit_text_opposite" parent="edit_text_single_line">
+        <item name="android:textDirection" tools:targetApi="17">ltr</item>
+    </style>
+
+    <style name="edit_text_uri" parent="edit_text_opposite">
+        <item name="android:hint">@string/uri_hint</item>
+        <item name="android:inputType">textUri</item>
+        <item name="typefaceId">roboto_regular</item>
+        <item name="hintTypefaceId">iranian_sans_regular</item>
+    </style>
+
+    <style name="edit_text_email" parent="edit_text_opposite">
+        <item name="android:hint">@string/email_hint</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="typefaceId">roboto_regular</item>
+        <item name="hintTypefaceId">iranian_sans_regular</item>
+    </style>
+
+    <style name="edit_text_password" parent="edit_text_opposite">
+        <item name="android:hint">@string/password_hint</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="typefaceId">roboto_regular</item>
+        <item name="hintTypefaceId">iranian_sans_regular</item>
+    </style>
+
+    <style name="button" parent="input_base">
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@drawable/button_text</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="toast_root" parent="match"></style>
+
+    <style name="toast_container" parent="match">
+        <item name="android:background">@drawable/toast_bg</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginBottom">46dp</item>
+    </style>
+
+    <style name="toast_message" parent="match">
+        <item name="android:textColor">@color/toast_text</item>
+        <item name="android:textSize">@dimen/toast_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="progress_base" parent="@android:style/Widget.Material.ProgressBar.Horizontal" tools:targetApi="21">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="progress_bar" parent="progress_base">
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+    </style>
+
+    <style name="indeterminate_bar" parent="progress_base">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_bar</item>
+        <item name="android:indeterminateBehavior">cycle</item>
+    </style>
+
+    <style name="progress_wrapper_base" parent="wrap">
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="progress_wrapper" parent="progress_wrapper_base">
+        <item name="android:layout_width">@dimen/progress_size</item>
+        <item name="android:layout_height">@dimen/progress_size</item>
+        <item name="android:background">@drawable/progress_wrapper_bg</item>
+    </style>
+
+    <style name="progress_message_wrapper" parent="progress_wrapper_base"></style>
+
+    <style name="progress_message" parent="wrap">
+        <item name="android:textColor">@color/progress_message</item>
+        <item name="android:textSize">@dimen/progress_message</item>
+        <item name="typefaceId">iranian_sans_ultra_light</item>
+    </style>
+</resources>

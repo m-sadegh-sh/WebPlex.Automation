@@ -1,0 +1,6 @@
+<resources>
+    <color name="splash_header_bg">#1976d2</color>
+    <color name="splash_label">#ffffff</color>
+    <color name="splash_footer_bg">#1976d2</color>
+    <color name="splash_powered_by">#66a4e1</color>
+</resources>

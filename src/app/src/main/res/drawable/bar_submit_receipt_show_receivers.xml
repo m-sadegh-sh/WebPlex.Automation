@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false">
+        <bitmap android:alpha="0.5" android:src="@mipmap/ic_bar_submit_receipt_show_receivers" />
+    </item>
+    <item>
+        <bitmap android:src="@mipmap/ic_bar_submit_receipt_show_receivers" />
+    </item>
+</selector>

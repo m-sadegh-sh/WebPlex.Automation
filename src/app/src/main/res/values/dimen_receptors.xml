@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="item_receptor_title">14sp</dimen>
+    <dimen name="item_receptor_email">12sp</dimen>
+</resources>

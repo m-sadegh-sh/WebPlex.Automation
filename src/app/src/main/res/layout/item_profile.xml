@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/item_profile">
+
+    <ImageView
+        android:id="@+id/item_profile_avatar"
+        style="@style/item_profile_avatar" />
+
+    <LinearLayout style="@style/item_profile_container">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/item_profile_title"
+            style="@style/item_profile_title" />
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/item_profile_email"
+            style="@style/item_profile_email" />
+
+    </LinearLayout>
+
+</RelativeLayout>

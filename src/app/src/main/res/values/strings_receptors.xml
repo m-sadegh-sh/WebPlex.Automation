@@ -1,0 +1,6 @@
+﻿<resources>
+    <string name="receptors_label">دریافت رسید از...</string>
+    <string name="receptors_query_hint">عنوان یا ایمیل فرد...</string>
+    <string name="bar_receptors_clear">حذف جستجو</string>
+    <string name="receptors_error_no_results">پستی برای امضای این نامه باقی نمانده است.</string>
+</resources>

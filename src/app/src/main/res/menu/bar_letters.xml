@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bar_letters_clear"
+        android:enabled="false"
+        android:icon="@drawable/bar_letters_clear"
+        android:title="@string/bar_letters_clear"
+        app:showAsAction="always" />
+
+    <group
+        android:checkableBehavior="single"
+        app:showAsAction="always">
+        <item
+            android:id="@+id/bar_letters_reception_types_all"
+            android:checked="true"
+            android:title="@string/bar_letters_reception_types_all" />
+
+        <item
+            android:id="@+id/bar_letters_reception_types_received"
+            android:title="@string/bar_letters_reception_types_received" />
+
+        <item
+            android:id="@+id/bar_letters_reception_types_not_received"
+            android:title="@string/bar_letters_reception_types_not_received" />
+    </group>
+</menu>

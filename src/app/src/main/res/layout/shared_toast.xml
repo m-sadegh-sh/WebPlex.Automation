@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/toast_root"
+    style="@style/toast_root">
+
+    <LinearLayout style="@style/toast_container">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/toast_message"
+            style="@style/toast_message" />
+    </LinearLayout>
+</LinearLayout>

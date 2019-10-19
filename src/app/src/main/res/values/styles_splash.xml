@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="splash_root" parent="match">
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="splash_container" parent="match_wrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="splash_header" parent="match">
+        <item name="android:background">@color/splash_header_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">30dp</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="splash_logo">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:src">@mipmap/ic_shared_logo</item>
+    </style>
+
+    <style name="splash_label" parent="wrap">
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_marginBottom">70dp</item>
+        <item name="android:text">@string/splash_label</item>
+        <item name="android:textColor">@color/splash_label</item>
+        <item name="android:textSize">@dimen/splash_label</item>
+        <item name="typefaceId">iranian_sans_medium</item>
+    </style>
+
+    <style name="splash_footer" parent="match_wrap">
+        <item name="android:background">@color/splash_footer_bg</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layoutDirection" tools:targetApi="17">ltr</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">15dp</item>
+    </style>
+
+    <style name="splash_copyright">
+        <item name="android:layout_width">10dp</item>
+        <item name="android:layout_height">10dp</item>
+        <item name="android:layout_marginEnd" tools:targetApi="17">7dp</item>
+        <item name="android:src">@mipmap/ic_splash_copyright</item>
+    </style>
+
+    <style name="splash_powered_by" parent="wrap">
+        <item name="android:text">@string/splash_powered_by</item>
+        <item name="android:textColor">@color/splash_powered_by</item>
+        <item name="android:textSize">@dimen/splash_powered_by</item>
+        <item name="typefaceId">roboto_light</item>
+    </style>
+
+</resources>

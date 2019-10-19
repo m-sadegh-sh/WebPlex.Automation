@@ -1,0 +1,86 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="letters_root" parent="match"></style>
+
+    <style name="letters_bar" parent="match">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="bar_letters_query" parent="edit_text_single_line">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">@color/bar_letters_query</item>
+        <item name="android:textColorHint">@color/bar_letters_query_hint</item>
+        <item name="android:hint">@string/letters_hint</item>
+    </style>
+
+    <style name="letters_results" parent="match">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:background">@color/list_view_bg</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="item_letter" parent="match_wrap"></style>
+
+    <style name="item_letter_receivers_count">
+        <item name="android:layout_alignParentStart" tools:targetApi="17">true</item>
+        <item name="android:layout_marginStart" tools:targetApi="17">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:background">@drawable/item_letter_receivers_count_bg</item>
+        <item name="android:textColor">@color/item_letter_receivers_count</item>
+        <item name="android:textSize">@dimen/item_letter_receivers_count</item>
+        <item name="typefaceId">iranian_sans_light</item>
+    </style>
+
+    <style name="item_letter_container" parent="match">
+        <item name="android:padding">10dp</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginStart" tools:targetApi="17">60dp</item>
+    </style>
+
+    <style name="item_letter_subject" parent="match">
+        <item name="android:textColor">@color/item_letter_subject</item>
+        <item name="android:textSize">@dimen/item_letter_subject</item>
+    </style>
+
+    <style name="item_letter_indicator_wrapper" parent="match_wrap">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="item_letter_indicator" parent="wrap">
+        <item name="android:textColor">@color/item_letter_indicator</item>
+        <item name="android:textSize">@dimen/item_letter_indicator</item>
+        <item name="typefaceId">iranian_sans_ultra_light</item>
+    </style>
+
+
+    <style name="item_letter_indicator_date" parent="item_letter_indicator">
+        <item name="android:layout_alignParentStart" tools:targetApi="17">true</item>
+    </style>
+
+    <style name="item_letter_indicator_number" parent="item_letter_indicator">
+        <item name="android:layout_alignParentEnd" tools:targetApi="17">true</item>
+    </style>
+
+    <style name="item_letter_divider" parent="match">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/item_letter_divider_bg</item>
+        <item name="android:layout_height">0.25dp</item>
+    </style>
+
+    <style name="letters_progress_wrapper" parent="progress_wrapper"></style>
+
+    <style name="letters_progress_bar" parent="indeterminate_bar"></style>
+
+    <style name="letters_progress_message_wrapper" parent="progress_message_wrapper"></style>
+
+    <style name="letters_progress_message" parent="progress_message"></style>
+
+</resources>

@@ -1,0 +1,81 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="login_root" parent="match">
+        <item name="android:fillViewport">true</item>
+    </style>
+
+    <style name="login_container" parent="match">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="login_header" parent="match_wrap">
+        <item name="android:background">@drawable/login_header_bg</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">30dp</item>
+        <item name="android:paddingTop">30dp</item>
+    </style>
+
+    <style name="login_logo">
+        <item name="android:layout_width">64dp</item>
+        <item name="android:layout_height">64dp</item>
+        <item name="android:src">@mipmap/ic_shared_logo</item>
+    </style>
+
+    <style name="login_hero" parent="wrap">
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:text">@string/login_hero</item>
+        <item name="android:textColor">@color/login_hero</item>
+        <item name="android:textSize">@dimen/login_hero</item>
+        <item name="typefaceId">iranian_sans_ultra_light</item>
+    </style>
+
+    <style name="login_content" parent="match">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="login_form" parent="match">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">30dp</item>
+    </style>
+
+    <style name="login_row" parent="match_wrap">
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="login_last_row" parent="login_row">
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="login_base_uri_row" parent="login_row">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="login_base_uri" parent="edit_text_uri">
+        <item name="android:paddingRight">49dp</item>
+        <item name="android:selectAllOnFocus">true</item>
+    </style>
+
+    <style name="login_base_uri_reset" parent="button">
+        <item name="android:layout_alignParentStart" tools:targetApi="17">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@mipmap/ic_login_base_uri_reset</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+
+    <style name="login_email" parent="edit_text_email"></style>
+
+    <style name="login_password" parent="edit_text_password"></style>
+
+    <style name="login_progress_wrapper" parent="progress_wrapper"></style>
+
+    <style name="login_progress_bar" parent="indeterminate_bar"></style>
+
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="splash_label">28sp</dimen>
+    <dimen name="splash_powered_by">10sp</dimen>
+</resources>

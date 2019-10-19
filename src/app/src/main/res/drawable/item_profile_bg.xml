@@ -1,0 +1,9 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="270"
+        android:centerColor="@color/item_profile_bg_start"
+        android:centerY="0.9"
+        android:endColor="@color/item_profile_bg_end"
+        android:startColor="@color/item_profile_bg_start"
+        android:type="linear" />
+</shape>

@@ -1,0 +1,13 @@
+<resources>
+    <color name="item_navigable_title">#686868</color>
+    <color name="item_navigable_counter_bg">#f44336</color>
+    <color name="item_navigable_counter">#ffffff</color>
+    <color name="item_navigable_divider_bg">#dfdfdf</color>
+    <color name="item_profile_bg_start">#1976d2</color>
+    <color name="item_profile_bg_end">#095aab</color>
+    <color name="item_profile_avatar_border">#7fffffff</color>
+    <color name="item_profile_title">#ffffff</color>
+    <color name="item_profile_email">#7fffffff</color>
+    <color name="main_welcome">#5e5e5e</color>
+    <color name="main_tips">#8b8b8b</color>
+</resources>

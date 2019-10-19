@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="item_letter_receivers_count">14sp</dimen>
+    <dimen name="item_letter_subject">14sp</dimen>
+    <dimen name="item_letter_indicator">12sp</dimen>
+</resources>

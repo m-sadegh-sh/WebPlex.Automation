@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/item_navigable_counter_bg" />
+    <padding
+        android:end="3dp"
+        android:start="3dp" />
+    <corners android:radius="20dp" />
+</shape>

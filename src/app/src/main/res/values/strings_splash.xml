@@ -1,0 +1,4 @@
+﻿<resources>
+    <string name="splash_label">مدیریت مکاتبات پرنیان</string>
+    <string name="splash_powered_by">powered by parnian - v%s</string>
+</resources>

@@ -1,0 +1,6 @@
+﻿<resources>
+    <integer name="navigable_profile">0</integer>
+    <integer name="navigable_main">1</integer>
+    <integer name="navigable_submit_receipt">2</integer>
+    <integer name="navigable_logout">4</integer>
+</resources>

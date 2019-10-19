@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/item_navigable">
+
+    <RelativeLayout
+        android:id="@+id/item_navigable_top_divider"
+        style="@style/item_navigable_divider" />
+
+    <RelativeLayout style="@style/item_navigable_container">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/item_navigable_title"
+            style="@style/item_navigable_title" />
+
+        <ImageView
+            android:id="@+id/item_navigable_icon"
+            style="@style/item_navigable_icon" />
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/item_navigable_counter"
+            style="@style/item_navigable_counter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_navigable_bottom_divider"
+        style="@style/item_navigable_divider" />
+</LinearLayout>

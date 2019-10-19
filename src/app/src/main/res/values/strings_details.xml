@@ -1,0 +1,12 @@
+﻿<resources>
+    <string name="details_label">جزئیات نامه...</string>
+    <string name="details_subject_hint">عنوان</string>
+    <string name="details_indicator_date_hint">تاریخ اندیکاتور</string>
+    <string name="details_indicator_number_hint">شماره اندیکاتور</string>
+    <string name="details_sender_name_hint">ارسال کننده</string>
+    <string name="details_letter_type_hint">نوع</string>
+    <string name="details_privacy_hint">محرمانگی</string>
+    <string name="details_has_attachments_hint">پیوست</string>
+    <string name="details_has_attachments_true">نامه دارای پیوست است</string>
+    <string name="details_has_attachments_false">نامه بدون پیوست می باشد</string>
+</resources>

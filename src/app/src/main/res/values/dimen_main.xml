@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="item_profile_title">14sp</dimen>
+    <dimen name="item_profile_email">12sp</dimen>
+    <dimen name="item_navigable_title">14sp</dimen>
+    <dimen name="main_welcome">20sp</dimen>
+    <dimen name="main_tips">16sp</dimen>
+</resources>

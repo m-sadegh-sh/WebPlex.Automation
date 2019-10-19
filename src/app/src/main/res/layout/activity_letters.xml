@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/letters_root">
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/letters_results" />
+
+    <RelativeLayout
+        android:id="@+id/letters_progress_wrapper"
+        style="@style/letters_progress_wrapper">
+
+        <ProgressBar style="@style/letters_progress_bar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/letters_progress_message_wrapper"
+        style="@style/letters_progress_message_wrapper">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/letters_progress_message"
+            style="@style/letters_progress_message" />
+    </RelativeLayout>
+
+</RelativeLayout>

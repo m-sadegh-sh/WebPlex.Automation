@@ -1,0 +1,9 @@
+<resources>
+    <color name="bar_letters_query">#ffffff</color>
+    <color name="bar_letters_query_hint">#c0dfff</color>
+    <color name="item_letter_receivers_count">#ffffff</color>
+    <color name="item_letter_receivers_count_bg">#b3b3b3</color>
+    <color name="item_letter_subject">#3e3e3e</color>
+    <color name="item_letter_indicator">#9b9b9b</color>
+    <color name="item_letter_divider_bg">#dfdfdf</color>
+</resources>

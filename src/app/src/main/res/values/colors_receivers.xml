@@ -1,0 +1,8 @@
+<resources>
+    <color name="bar_receivers_query">#ffffff</color>
+    <color name="bar_receivers_query_hint">#c0dfff</color>
+    <color name="item_receiver_title">#3e3e3e</color>
+    <color name="item_receiver_email">#9b9b9b</color>
+    <color name="item_receiver_relative_date">#9b9b9b</color>
+    <color name="item_receiver_divider_bg">#dfdfdf</color>
+</resources>

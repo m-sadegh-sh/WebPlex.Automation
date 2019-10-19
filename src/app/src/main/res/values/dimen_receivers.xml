@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="item_receiver_title">14sp</dimen>
+    <dimen name="item_receiver_email">12sp</dimen>
+    <dimen name="item_receiver_relative_date">12sp</dimen>
+</resources>

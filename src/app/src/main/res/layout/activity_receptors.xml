@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/receptors_root">
+
+    <ListView
+        android:id="@android:id/list"
+        style="@style/receptors_results" />
+
+    <RelativeLayout
+        android:id="@+id/receptors_progress_wrapper"
+        style="@style/receptors_progress_wrapper">
+
+        <ProgressBar style="@style/receptors_progress_bar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/receptors_progress_message_wrapper"
+        style="@style/receptors_progress_message_wrapper">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/receptors_progress_message"
+            style="@style/receptors_progress_message" />
+    </RelativeLayout>
+
+</RelativeLayout>

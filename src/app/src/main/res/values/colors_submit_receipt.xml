@@ -1,0 +1,4 @@
+<resources>
+    <color name="submit_receipt_label">#ffffff</color>
+    <color name="submit_receipt_label_bg">#d6d6d6</color>
+</resources>

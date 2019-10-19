@@ -1,0 +1,12 @@
+﻿<resources>
+    <string name="submit_receipt_label">ثبت رسید نامه</string>
+    <string name="bar_submit_receipt_show_details">جزئیات نامه</string>
+    <string name="bar_submit_receipt_show_receivers">تحویل گیرندگان نامه</string>
+    <string name="bar_submit_receipt_submit_receipt">ذخیره رسید نامه</string>
+    <string name="submit_receipt_letter_hint">نامه مورد نظر...</string>
+    <string name="submit_receipt_receptor_hint">دریافت رسید از...</string>
+    <string name="submit_receipt_signature_hint">لطفا اینجا را امضا نمائید...</string>
+    <string name="submit_receipt_info_submit_succeeded">رسید مورد نظر با موفقیت ثبت شد.</string>
+    <string name="submit_receipt_error_already_receipted">این رسید %s ثبت شده است.</string>
+    <string name="submit_receipt_error_submit_failed">امکان ثبت رسید وجود ندارد.</string>
+</resources>

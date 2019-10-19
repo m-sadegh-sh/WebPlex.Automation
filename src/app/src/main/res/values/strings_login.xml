@@ -1,0 +1,7 @@
+﻿<resources>
+    <string name="login_label">ورود به برنامه</string>
+    <string name="login_hero">برای ادامه ابتدا وارد حساب خود شوید.</string>
+    <string name="bar_login_show_base_uri">تغییر آدرس سرور</string>
+    <string name="bar_login_sign_in">ورود</string>
+    <string name="login_error_invalid_credentials">اطلاعات وارد شده اشتباه است.</string>
+</resources>

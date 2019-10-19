@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bar_submit_receipt_show_details"
+        android:enabled="false"
+        android:icon="@drawable/bar_submit_receipt_show_details"
+        android:title="@string/bar_submit_receipt_show_details"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bar_submit_receipt_show_receivers"
+        android:enabled="false"
+        android:icon="@drawable/bar_submit_receipt_show_receivers"
+        android:title="@string/bar_submit_receipt_show_receivers"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bar_submit_receipt_submit_receipt"
+        android:enabled="false"
+        android:icon="@drawable/bar_submit_receipt_submit_receipt"
+        android:title="@string/bar_submit_receipt_submit_receipt"
+        app:showAsAction="always" />
+</menu>

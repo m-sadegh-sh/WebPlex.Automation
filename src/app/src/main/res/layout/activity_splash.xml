@@ -1,0 +1,23 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/splash_root">
+
+    <LinearLayout style="@style/splash_container">
+
+        <LinearLayout style="@style/splash_header">
+
+            <ImageView style="@style/splash_logo" />
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/splash_label" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/splash_footer">
+
+            <ImageView style="@style/splash_copyright" />
+
+            <ir.webplex.android.automation.ui.CustomTextView
+                android:id="@+id/splash_powered_by"
+                style="@style/splash_powered_by" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/details_root">
+
+    <LinearLayout
+        android:id="@+id/details_form"
+        style="@style/details_form">
+
+        <LinearLayout style="@style/details_item">
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/details_subject_label" />
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/details_subject_value"
+                style="@style/details_subject_value" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/details_item">
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/details_indicator_date_label" />
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/details_indicator_date_value"
+                style="@style/details_indicator_date_value" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/details_item">
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/details_indicator_number_label" />
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/details_indicator_number_value"
+                style="@style/details_indicator_number_value" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/details_item">
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/details_sender_name_label" />
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/details_sender_name_value"
+                style="@style/details_sender_name_value" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/details_item">
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/details_letter_type_label" />
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/details_letter_type_value"
+                style="@style/details_letter_type_value" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/details_item">
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/details_privacy_label" />
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/details_privacy_value"
+                style="@style/details_privacy_value" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/details_item">
+
+            <ir.webplex.android.automation.ui.CustomTextView style="@style/details_has_attachments_label" />
+
+            <ir.webplex.android.automation.ui.CustomEditText
+                android:id="@+id/details_has_attachments_value"
+                style="@style/details_has_attachments_value" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_progress_wrapper"
+        style="@style/details_progress_wrapper">
+
+        <ProgressBar style="@style/details_progress_bar" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/details_progress_message_wrapper"
+        style="@style/details_progress_message_wrapper">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/details_progress_message"
+            style="@style/details_progress_message" />
+    </RelativeLayout>
+
+</RelativeLayout>

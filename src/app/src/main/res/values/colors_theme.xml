@@ -1,0 +1,19 @@
+<resources>
+    <color name="bg">#ffffff</color>
+    <color name="control_accent">#1976d2</color>
+    <color name="control_normal">#b3b3b3</color>
+    <color name="control_highlight">#f2f2f2</color>
+    <color name="control_activated">#e9e9e9</color>
+    <color name="control_reversed_accent">#939393</color>
+    <color name="control_reversed_normal">#939393</color>
+    <color name="control_reversed_highlight">#848484</color>
+    <color name="control_reversed_activated">#848484</color>
+    <color name="window_bg">#ffffff</color>
+    <color name="status_bar_bg">#095aab</color>
+    <color name="toolbar_bg_start">#1976d2</color>
+    <color name="toolbar_bg_end">#095aab</color>
+    <color name="navigation_bar_bg">#1976d2</color>
+    <color name="action_bar_text">#ffffff</color>
+    <color name="action_bar_control_accent">#c0dfff</color>
+    <color name="theme_drop_down_divider_bg">#dfdfdf</color>
+</resources>

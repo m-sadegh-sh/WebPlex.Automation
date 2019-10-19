@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/item_letter">
+
+    <ir.webplex.android.automation.ui.CustomTextView
+        android:id="@+id/item_letter_receivers_count"
+        style="@style/item_letter_receivers_count" />
+
+    <LinearLayout style="@style/item_letter_container">
+
+        <ir.webplex.android.automation.ui.CustomTextView
+            android:id="@+id/item_letter_subject"
+            style="@style/item_letter_subject" />
+
+        <RelativeLayout style="@style/item_letter_indicator_wrapper">
+
+            <ir.webplex.android.automation.ui.CustomTextView
+                android:id="@+id/item_letter_indicator_date"
+                style="@style/item_letter_indicator_date" />
+
+            <ir.webplex.android.automation.ui.CustomTextView
+                android:id="@+id/item_letter_indicator_number"
+                style="@style/item_letter_indicator_number" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/item_letter_divider"
+        style="@style/item_letter_divider" />
+</RelativeLayout>

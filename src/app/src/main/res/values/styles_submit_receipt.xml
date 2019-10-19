@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="submit_receipt_root" parent="match"></style>
+
+    <style name="submit_receipt_form" parent="match">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="submit_receipt_row" parent="match_wrap"></style>
+
+    <style name="submit_receipt_label" parent="wrap">
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentStart" tools:targetApi="17">true</item>
+        <item name="android:textColor">@color/submit_receipt_label</item>
+        <item name="android:textSize">@dimen/submit_receipt_label</item>
+        <item name="typefaceId">iranian_sans_ultra_light</item>
+        <item name="android:paddingStart" tools:targetApi="17">3dp</item>
+        <item name="android:paddingEnd" tools:targetApi="17">3dp</item>
+        <item name="android:background">@color/submit_receipt_label_bg</item>
+    </style>
+
+    <style name="submit_receipt_value" parent="edit_text">
+        <item name="android:enabled">false</item>
+        <item name="android:paddingEnd" tools:targetApi="17">69dp</item>
+    </style>
+
+    <style name="submit_receipt_action" parent="button">
+        <item name="android:layout_alignParentEnd" tools:targetApi="17">true</item>
+        <item name="android:gravity">top</item>
+        <item name="android:layout_width">54dp</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="submit_receipt_letter_value" parent="submit_receipt_value">
+        <item name="android:hint">@string/submit_receipt_letter_hint</item>
+    </style>
+
+    <style name="submit_receipt_letter_label" parent="submit_receipt_label">
+        <item name="android:text">@string/submit_receipt_letter_hint</item>
+    </style>
+
+    <style name="submit_receipt_clear" parent="submit_receipt_action">
+        <item name="android:src">@drawable/submit_receipt_clear_bg</item>
+    </style>
+
+    <style name="submit_receipt_letter_select" parent="submit_receipt_action">
+        <item name="android:src">@drawable/submit_receipt_letter_select_bg</item>
+    </style>
+
+    <style name="submit_receipt_receptor_value" parent="submit_receipt_value">
+        <item name="android:hint">@string/submit_receipt_receptor_hint</item>
+    </style>
+
+    <style name="submit_receipt_receptor_label" parent="submit_receipt_label">
+        <item name="android:text">@string/submit_receipt_receptor_hint</item>
+    </style>
+
+    <style name="submit_receipt_receptor_select" parent="submit_receipt_action">
+        <item name="android:src">@drawable/submit_receipt_receptor_select_bg</item>
+    </style>
+
+    <style name="submit_receipt_signature_container" parent="match_wrap">
+        <item name="android:background">@color/edit_text_bg_disabled</item>
+    </style>
+
+    <style name="submit_receipt_signature_value" parent="edit_text">
+        <item name="android:hint">@string/submit_receipt_signature_hint</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="submit_receipt_signature_surface" parent="match">
+        <item name="android:minHeight">400dp</item>
+    </style>
+
+    <style name="submit_receipt_progress_wrapper" parent="progress_wrapper"></style>
+
+    <style name="submit_receipt_progress_bar" parent="indeterminate_bar"></style>
+
+    <style name="submit_receipt_progress_message_wrapper" parent="progress_message_wrapper"></style>
+
+    <style name="submit_receipt_progress_message" parent="progress_message"></style>
+
+</resources>

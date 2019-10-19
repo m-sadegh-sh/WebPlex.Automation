@@ -1,0 +1,9 @@
+﻿<resources>
+    <string name="letters_label">جستجوی نامه...</string>
+    <string name="letters_hint">شماره، موضوع یا متن نامه...</string>
+    <string name="bar_letters_clear">حذف جستجو</string>
+    <string name="bar_letters_reception_types_all">همه</string>
+    <string name="bar_letters_reception_types_received">امضا شده</string>
+    <string name="bar_letters_reception_types_not_received">بدون امضا</string>
+    <string name="letters_error_no_results">نامه ای یافت نشد.</string>
+</resources>

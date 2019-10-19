@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/receivers_bar">
+
+    <ir.webplex.android.automation.ui.CustomEditText
+        android:id="@+id/bar_receivers_query"
+        style="@style/bar_receivers_query" />
+</LinearLayout>

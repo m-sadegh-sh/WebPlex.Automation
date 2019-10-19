@@ -1,0 +1,5 @@
+<resources>
+    <color name="login_header_bg">#f7f7f7</color>
+    <color name="login_header_border">#dfdfdf</color>
+    <color name="login_hero">#1976d2</color>
+</resources>

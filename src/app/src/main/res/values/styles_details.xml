@@ -1,0 +1,78 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="details_root" parent="match"></style>
+
+    <style name="details_form" parent="match">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="details_item" parent="match_wrap">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="details_label" parent="wrap_match">
+        <item name="android:textColor">@color/details_label</item>
+        <item name="android:textSize">@dimen/details_label</item>
+        <item name="typefaceId">iranian_sans_ultra_light</item>
+        <item name="android:paddingStart" tools:targetApi="17">15dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">110dp</item>
+        <item name="android:background">@drawable/edit_text_bg</item>
+    </style>
+
+    <style name="details_value" parent="edit_text">
+        <item name="android:enabled">false</item>
+    </style>
+
+    <style name="details_subject_label" parent="details_label">
+        <item name="android:text">@string/details_subject_hint</item>
+    </style>
+
+    <style name="details_subject_value" parent="details_value"></style>
+
+    <style name="details_indicator_date_label" parent="details_label">
+        <item name="android:text">@string/details_indicator_date_hint</item>
+    </style>
+
+    <style name="details_indicator_date_value" parent="details_value"></style>
+
+    <style name="details_indicator_number_label" parent="details_label">
+        <item name="android:text">@string/details_indicator_number_hint</item>
+    </style>
+
+    <style name="details_indicator_number_value" parent="details_value"></style>
+
+    <style name="details_sender_name_label" parent="details_label">
+        <item name="android:text">@string/details_sender_name_hint</item>
+    </style>
+
+    <style name="details_sender_name_value" parent="details_value"></style>
+
+    <style name="details_letter_type_label" parent="details_label">
+        <item name="android:text">@string/details_letter_type_hint</item>
+    </style>
+
+    <style name="details_letter_type_value" parent="details_value"></style>
+
+    <style name="details_privacy_label" parent="details_label">
+        <item name="android:text">@string/details_privacy_hint</item>
+    </style>
+
+    <style name="details_privacy_value" parent="details_value"></style>
+
+    <style name="details_has_attachments_label" parent="details_label">
+        <item name="android:text">@string/details_has_attachments_hint</item>
+    </style>
+
+    <style name="details_has_attachments_value" parent="details_value"></style>
+
+    <style name="details_progress_wrapper" parent="progress_wrapper"></style>
+
+    <style name="details_progress_bar" parent="indeterminate_bar"></style>
+
+    <style name="details_progress_message_wrapper" parent="progress_message_wrapper"></style>
+
+    <style name="details_progress_message" parent="progress_message"></style>
+
+</resources>

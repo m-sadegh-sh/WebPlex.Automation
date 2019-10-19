@@ -1,0 +1,71 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="receivers_root" parent="match"></style>
+
+    <style name="receivers_bar" parent="match">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="bar_receivers_query" parent="edit_text_single_line">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">@color/bar_receivers_query</item>
+        <item name="android:textColorHint">@color/bar_receivers_query_hint</item>
+        <item name="android:hint">@string/receivers_query_hint</item>
+    </style>
+
+    <style name="receivers_results" parent="match">
+        <item name="android:layout_gravity">start</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:background">@color/list_view_bg</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="item_receiver" parent="match_wrap"></style>
+
+    <style name="item_receiver_container" parent="match">
+        <item name="android:padding">10dp</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="item_receiver_title" parent="match">
+        <item name="android:textColor">@color/item_receiver_title</item>
+        <item name="android:textSize">@dimen/item_receiver_title</item>
+    </style>
+
+    <style name="item_receiver_wrapper" parent="match_wrap">
+        <item name="android:layout_marginTop">10dp</item>
+    </style>
+
+    <style name="item_receiver_email" parent="wrap">
+        <item name="android:textColor">@color/item_receiver_email</item>
+        <item name="android:textSize">@dimen/item_receiver_email</item>
+        <item name="typefaceId">roboto_light</item>
+        <item name="android:layout_alignParentStart" tools:targetApi="17">true</item>
+    </style>
+
+    <style name="item_receiver_relative_date" parent="wrap">
+        <item name="android:textColor">@color/item_receiver_relative_date</item>
+        <item name="android:textSize">@dimen/item_receiver_relative_date</item>
+        <item name="typefaceId">iranian_sans_ultra_light</item>
+        <item name="android:layout_alignParentEnd" tools:targetApi="17">true</item>
+    </style>
+
+    <style name="item_receiver_divider" parent="match">
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:background">@color/item_receiver_divider_bg</item>
+        <item name="android:layout_height">0.25dp</item>
+    </style>
+
+    <style name="receivers_progress_wrapper" parent="progress_wrapper"></style>
+
+    <style name="receivers_progress_bar" parent="indeterminate_bar"></style>
+
+    <style name="receivers_progress_message_wrapper" parent="progress_message_wrapper"></style>
+
+    <style name="receivers_progress_message" parent="progress_message"></style>
+
+</resources>

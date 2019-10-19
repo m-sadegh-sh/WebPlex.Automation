@@ -1,0 +1,119 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="main_root" parent="match"></style>
+
+    <style name="main_decorator_root" parent="match"></style>
+
+    <style name="main_drawer_placeholder" parent="match">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="main_drawer" parent="match">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:choiceMode">singleChoice</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:background">@color/list_view_bg</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="item_profile" parent="match_wrap">
+        <item name="android:background">@drawable/item_profile_bg</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <style name="item_profile_avatar" parent="match">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_alignParentStart" tools:targetApi="17">true</item>
+        <item name="android:background">@drawable/item_profile_avatar_bg</item>
+    </style>
+
+    <style name="item_profile_container" parent="match">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginStart" tools:targetApi="17">70dp</item>
+    </style>
+
+    <style name="item_profile_title" parent="match_wrap">
+        <item name="android:textColor">@color/item_profile_title</item>
+        <item name="android:textSize">@dimen/item_profile_title</item>
+        <item name="typefaceId">iranian_sans_medium</item>
+    </style>
+
+    <style name="item_profile_email" parent="match_wrap">
+        <item name="android:textColor">@color/item_profile_email</item>
+        <item name="android:textSize">@dimen/item_profile_email</item>
+        <item name="typefaceId">roboto_light</item>
+    </style>
+
+    <style name="item_navigable" parent="match_wrap">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="item_navigable_container" parent="match_wrap"></style>
+
+    <style name="item_navigable_title" parent="match">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textSize">@dimen/item_navigable_title</item>
+        <item name="android:textColor">@color/item_navigable_title</item>
+        <item name="android:layout_marginStart" tools:targetApi="17">50dp</item>
+        <item name="android:layout_marginEnd" tools:targetApi="17">50dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="typefaceId">iranian_sans_light</item>
+    </style>
+
+    <style name="item_navigable_floated">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="item_navigable_icon" parent="item_navigable_floated">
+        <item name="android:layout_alignParentStart" tools:targetApi="17">true</item>
+        <item name="android:layout_marginStart" tools:targetApi="17">10dp</item>
+    </style>
+
+    <style name="item_navigable_counter" parent="item_navigable_floated">
+        <item name="android:layout_alignParentEnd" tools:targetApi="17">true</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:background">@drawable/item_navigable_counter</item>
+        <item name="android:textColor">@color/item_navigable_counter</item>
+        <item name="android:layout_marginEnd" tools:targetApi="17">10dp</item>
+    </style>
+
+    <style name="item_navigable_divider" parent="match">
+        <item name="android:background">@color/item_navigable_divider_bg</item>
+        <item name="android:layout_height">0.25dp</item>
+    </style>
+
+    <style name="main_content" parent="match">
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">30dp</item>
+    </style>
+
+    <style name="main_welcome" parent="wrap">
+        <item name="android:textColor">@color/main_welcome</item>
+        <item name="android:textSize">@dimen/main_welcome</item>
+        <item name="typefaceId">iranian_sans_regular</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/main_welcome</item>
+    </style>
+
+    <style name="main_tips" parent="wrap">
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:textColor">@color/main_tips</item>
+        <item name="android:textSize">@dimen/main_tips</item>
+        <item name="typefaceId">iranian_sans_ultra_light</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:text">@string/main_tips_submit_receipt</item>
+    </style>
+
+    <style name="main_tips_submit_receipt" parent="main_tips">
+        <item name="android:text">@string/main_tips_submit_receipt</item>
+    </style>
+
+</resources>

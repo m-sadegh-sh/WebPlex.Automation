@@ -1,0 +1,10 @@
+﻿<resources>
+    <string name="main_label">مدیریت مکاتبات پرنیان</string>
+
+    <string name="navigable_home">مدیریت مکاتبات پرنیان</string>
+    <string name="navigable_submit_receipt">ثبت رسید نامه</string>
+    <string name="navigable_logout">خروج</string>
+
+    <string name="main_welcome">به اپلیکیشن مدیریت مکاتبات پرنیان خوش آمدید.</string>
+    <string name="main_tips_submit_receipt">به منظور ثبت رسید نامه از منوی سمت راست گزینه ثبت رسید نامه را انتخاب کنید.</string>
+</resources>

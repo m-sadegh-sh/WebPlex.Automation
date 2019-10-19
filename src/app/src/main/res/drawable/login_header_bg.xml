@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:left="-1dp"
+        android:right="-1dp"
+        android:top="-1dp">
+        <shape>
+            <solid android:color="@color/login_header_bg" />
+            <stroke
+                android:width="0.25dp"
+                android:color="@color/login_header_border" />
+        </shape>
+    </item>
+</layer-list>
